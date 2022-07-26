@@ -1,11 +1,10 @@
-## Magisk dc9b8077-delta DEBUG by HuskyDG
+## Magisk 1327b58c-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Fix lag when pressing "Disable Magisk" option
-
+- Fix installing Magisk on LDPlayer Android 9 SAR Emulator
 
 ### Diff from official
 

@@ -33,19 +33,18 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ### Canary / Debug
 
-> ⚠ Magisk Canary/Debug might unstable. If you don't know what is DEBUG, please DO NOT use Canary/Debug build.
+⚠ Magisk Canary/Debug may be unstable and is intended only for advanced users who knew how to recover from a bootloop or crash. Canary and Debug builds are built from the same source code, the difference of Debug from Canary is that it has detailed logs and does not enforce signature checks. [Download source code here](https://github.com/topjohnwu/Magisk/archive/1327b58c.zip)
 
 #### Canary
 
 - [Download app](https://huskydg.github.io/magisk-files/app-release.apk)
-- [Source code](https://github.com/topjohnwu/Magisk/archive/dc9b8077.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
 
 #### Debug
 
 - [Download app](https://huskydg.github.io/magisk-files/app-debug.apk)
-- [Source code](https://github.com/topjohnwu/Magisk/archive/dc9b8077.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_debug.md)
+
 
 ## FAQ
 
