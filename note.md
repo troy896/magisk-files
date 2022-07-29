@@ -1,8 +1,9 @@
-## Magisk 1327b58c-delta by HuskyDG
+## Magisk 4f23a994-delta by HuskyDG
 
 ### What is new?
 
 - Fix installing Magisk on LDPlayer Android 9 SAR Emulator
+- Re-inject Magisk binaries into `/sbin` if possible for Magisk in system partition
 
 ### Diff from official
 
