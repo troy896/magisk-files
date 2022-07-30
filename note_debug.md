@@ -1,11 +1,11 @@
-## Magisk 4f23a994-delta DEBUG by HuskyDG
+## Magisk 84747aa3-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Fix installing Magisk on LDPlayer Android 9 SAR Emulator
-- Re-inject Magisk binaries into `/sbin` if possible for Magisk in system partition
+- Add monet UI by @datnerdguy
+- Synchronized to [b496923c](https://github.com/topjohnwu/magisk/tree/b496923c)
 
 ### Diff from official
 
@@ -36,14 +36,6 @@ Temporarily turn off MagiskHide WhiteList if you want to grant root access to ne
 
 MagiskHide WhiteList has significant performance and memory consumption issue and might break some modules that require app to read (overlay module, systemize app, ...). Only use WhiteList if necessary
 
-### About Zygisk 💀
+## Magisk (b496923c) (25201)
 
-Zygisk is detectable and does not have hiding itself method like RiruHide. In additional, there are no hiding module that actually work, please don't enable Zygisk if unnecessary. [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
-
-## Magisk (9b61bdfc) (25201)
-
-- Sync to public release
-
-## Diffs to v25.2
-
-None
+- No changelog

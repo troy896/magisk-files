@@ -29,10 +29,6 @@ Temporarily turn off MagiskHide WhiteList if you want to grant root access to ne
 
 MagiskHide WhiteList has significant performance and memory consumption issue and might break some modules that require app to read (overlay module, systemize app, ...). Only use WhiteList if necessary
 
-### About Zygisk 💀
-
-Zygisk is detectable and does not have hiding itself method like RiruHide. In additional, there are no hiding module that actually work, please don't enable Zygisk if unnecessary. [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
-
 ## 2022.7.20 Magisk v25.2
 
 Maintenance release fixing various issues.
