@@ -1,9 +1,8 @@
-## Magisk 84747aa3-delta by HuskyDG
+## Magisk 384a95b4-delta by HuskyDG
 
 ### What is new?
 
-- Add monet UI by @datnerdguy
-- Synchronized to [b496923c](https://github.com/topjohnwu/magisk/tree/b496923c)
+- Add OneUI by @Yanndroid 
 
 ### Diff from official
 
@@ -35,5 +34,7 @@ Temporarily turn off MagiskHide WhiteList if you want to grant root access to ne
 MagiskHide WhiteList has significant performance and memory consumption issue and might break some modules that require app to read (overlay module, systemize app, ...). Only use WhiteList if necessary
 
 ## Magisk (b496923c) (25201)
+
+Synchronized to [b496923c](https://github.com/topjohnwu/magisk/tree/b496923c)
 
 - No changelog
