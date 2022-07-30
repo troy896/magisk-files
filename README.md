@@ -85,12 +85,6 @@ The official Magisk modules repository is dead and no longer maintained. Due to 
 
 [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
 
-
-## Others
-
-- [Telegram channel](https://t.me/magiskdelta)
-- [XDA Thread](https://forum.xda-developers.com/t/discussion-custom-magisk-delta.4460555/#post-87060311)
-
 ## Similar fork
 
 - [Fox2Code/Nopgisk](http://github.com/Fox2Code/Nopgisk)
