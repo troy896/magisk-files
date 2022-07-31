@@ -1,10 +1,11 @@
-## Magisk 384a95b4-delta DEBUG by HuskyDG
+## Magisk 38fc1599-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Add OneUI by @Yanndroid 
+- Rename "Anti Zygote loop" to "Bootloop Protection" since many users confused
+- Enable Bootloop Protection by default
 
 ### Diff from official
 
@@ -23,9 +24,10 @@
 - [MagiskHide] Introduce MagiskHide WhiteList mode to hide Magisk from all apps except apps that have been previously granted root access from Magisk
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules. [Learn more about it...](https://huskydg.github.io/blog/delete-file-and-folder-by-magisk-module)
-- [General] Introduce Anti Zygote loop feature to automatically boot into Core-only mode if zygote fails to start for many times (aka. bootloop)
+- [General] Introduce Bootloop Protection feature to automatically boot into Core-only mode if zygote fails to start for many times
 - [General] Add f2fs tuning for unencrypted devices
 - [General] Lock `sys.oem_unlock_allowed` to `0` and `init.svc.adbd` to `stopped`
+- [Manager] Add OneUI by @Yanndroid
 
 ### About MagiskHide WhiteList
 
