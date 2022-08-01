@@ -1,11 +1,10 @@
-## Magisk 38fc1599-delta DEBUG by HuskyDG
+## Magisk f3a24d75-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Rename "Anti Zygote loop" to "Bootloop Protection" since many users confused
-- Enable Bootloop Protection by default
+- Revert to original UI
 
 ### Diff from official
 
@@ -27,7 +26,6 @@
 - [General] Introduce Bootloop Protection feature to automatically boot into Core-only mode if zygote fails to start for many times
 - [General] Add f2fs tuning for unencrypted devices
 - [General] Lock `sys.oem_unlock_allowed` to `0` and `init.svc.adbd` to `stopped`
-- [Manager] Add OneUI by @Yanndroid
 
 ### About MagiskHide WhiteList
 
