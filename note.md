@@ -1,8 +1,9 @@
-## Magisk f3a24d75-delta by HuskyDG
+## Magisk f07d418b-delta by HuskyDG
 
 ### What is new?
 
-- Revert to original UI
+- Update MagiskHide Props to hide unexpected value of `ro.*.build.tags` and `ro.*.build.type`
+- Add Core-only mode toggle and Core-only mode can persist after reboot
 
 ### Diff from official
 

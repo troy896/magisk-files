@@ -1,10 +1,11 @@
-## Magisk f3a24d75-delta DEBUG by HuskyDG
+## Magisk f07d418b-delta DEBUG by HuskyDG
 
 > The Debug version has a more detailed log than the Canary version
 
 ### What is new?
 
-- Revert to original UI
+- Update MagiskHide Props to hide unexpected value of `ro.*.build.tags` and `ro.*.build.type`
+- Add Core-only mode toggle and Core-only mode can persist after reboot
 
 ### Diff from official
 

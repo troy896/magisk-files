@@ -33,7 +33,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ### Canary / Debug
 
-⚠ Magisk Canary/Debug may be unstable and is intended only for advanced users who knew how to recover from a bootloop or crash. Canary and Debug builds are built from the same source code, the difference of Debug from Canary is that it has detailed logs and does not enforce signature checks. [Download source code here](https://github.com/topjohnwu/Magisk/archive/f3a24d75.zip)
+⚠ Magisk Canary/Debug may be unstable and is intended only for advanced users who knew how to recover from a bootloop or crash. Canary and Debug builds are built from the same source code, the difference of Debug from Canary is that it has detailed logs and does not enforce signature checks. [Download source code here](https://github.com/topjohnwu/Magisk/archive/f07d418b.zip)
 
 #### Canary
 
