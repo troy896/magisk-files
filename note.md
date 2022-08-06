@@ -1,10 +1,8 @@
-## Magisk 2b9c2199-delta by HuskyDG
+## Magisk 6b00af65-delta by HuskyDG
 
 ### What is new?
 
-- Allowing developers to replace files in the system at the earliest init stage.
-- Remove "Riru Core" button.
-- Fix Magisk fails to inject if `/sbin` exist but is not included in `PATH` environment variable.
+- Fix F2FS tuning
 
 ### Diff from official
 
