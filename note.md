@@ -1,9 +1,10 @@
-## Magisk f07d418b-delta by HuskyDG
+## Magisk 2b9c2199-delta by HuskyDG
 
 ### What is new?
 
-- Update MagiskHide Props to hide unexpected value of `ro.*.build.tags` and `ro.*.build.type`
-- Add Core-only mode toggle and Core-only mode can persist after reboot
+- Allowing developers to replace files in the system at the earliest init stage.
+- Remove "Riru Core" button.
+- Fix Magisk fails to inject if `/sbin` exist but is not included in `PATH` environment variable.
 
 ### Diff from official
 
@@ -25,14 +26,12 @@
 - [General] Introduce Bootloop Protection feature to automatically boot into Core-only mode if zygote fails to start for many times
 - [General] Add f2fs tuning for unencrypted devices
 - [General] Lock `sys.oem_unlock_allowed` to `0` and `init.svc.adbd` to `stopped`
+- [MagiskInit] Allowing developers to replace files in the system at the earliest init stage.
 
-### About MagiskHide WhiteList
+### About Canary and Debug?
 
-After WhiteList is enabled, Magisk will be hidden from all apps by default and only previously apps have been granted root access from Magisk can continue to access Magisk.
-
-Temporarily turn off MagiskHide WhiteList if you want to grant root access to new apps
-
-MagiskHide WhiteList has significant performance and memory consumption issue and might break some modules that require app to read (overlay module, systemize app, ...). Only use WhiteList if necessary
+- They are built from the same source code
+- Debug has more detailed logs than Canary
 
 ## Magisk (b496923c) (25201)
 
