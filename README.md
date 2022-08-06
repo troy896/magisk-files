@@ -85,12 +85,11 @@ The official Magisk modules repository is dead and no longer maintained. Due to 
 
 [Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
 
+## Other links
 
-## Similar fork
+- [Internal Documents](./docs/internal-guide.md)
 
-- [Fox2Code/Nopgisk](http://github.com/Fox2Code/Nopgisk)
-
-##
+## Other stuff
 
 - [Riru Core](https://github.com/RikkaApps/Riru/releases)
 - [Isolated MagiskHider](https://github.com/HuskyDG/riru-momohider/releases)
