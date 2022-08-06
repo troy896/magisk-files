@@ -1,8 +1,8 @@
-## Magisk 6b00af65-delta by HuskyDG
+## Magisk e3b475b1-delta by HuskyDG
 
 ### What is new?
 
-- Fix F2FS tuning
+- Minor fixes
 
 ### Diff from official
 
