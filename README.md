@@ -90,6 +90,11 @@ The official Magisk modules repository is dead and no longer maintained. Due to 
 
 - [Fox2Code/Nopgisk](http://github.com/Fox2Code/Nopgisk)
 
+##
+
+- [Riru Core](https://github.com/RikkaApps/Riru/releases)
+- [Isolated MagiskHider](https://github.com/HuskyDG/riru-momohider/releases)
+
 ## License
 
 Our license obviously is the same as [Magisk's license](https://github.com/topjohnwu/Magisk#License)
