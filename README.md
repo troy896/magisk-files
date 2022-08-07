@@ -68,6 +68,12 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 3. Grant root access to Magisk Delta, click "Install" under Magisk field and use "Direct Install into system partition" option instead of "Direct Install" option. If you don't see this option, close and re-open Magisk Delta app.
 4. Disable Root access in emulator settings
 
+### How to install Magisk into WSA?
+
+1. Fork repo from [LSPosed/MagiskOnWSA](https://github.com/LSPosed/MagiskOnWSA)
+2. Modify `.github/workflows/magisk.yml` following [this commit](https://github.com/HuskyDG/MagiskOnWSA/commit/01de8db0d9ebd6177fd5f9ad709f52af0704a60c)
+3. Build and install following [this guide](https://github.com/LSPosed/MagiskOnWSA#text-guide)
+
 ### Why restore MagiskHide?
 
 MagiskHide is still effectively useful to hide root from almost banking apps and games after it was discontinued by the original developer. 
