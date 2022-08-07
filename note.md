@@ -1,8 +1,8 @@
-## Magisk e3b475b1-delta by HuskyDG
+## Magisk 0ca9c3e2-delta by HuskyDG
 
 ### What is new?
 
-- Minor fixes
+- Signature check enforcement is removed, there is no point to check signature in open source software.
 
 ### Diff from official
 
