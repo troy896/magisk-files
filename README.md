@@ -71,7 +71,7 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 ### How to install Magisk into WSA?
 
 1. Fork repo from [LSPosed/MagiskOnWSA](https://github.com/LSPosed/MagiskOnWSA)
-2. Modify `.github/workflows/magisk.yml` following [this commit](https://github.com/HuskyDG/MagiskOnWSA/commit/01de8db0d9ebd6177fd5f9ad709f52af0704a60c)
+2. Modify `.github/workflows/magisk.yml` following [this commit](https://github.com/HuskyDG/MagiskOnWSA/commit/4ff73469f2310d873c3ef7737c235cc3e32d169f)
 3. Build and install following [this guide](https://github.com/LSPosed/MagiskOnWSA#text-guide)
 
 ### Why restore MagiskHide?
