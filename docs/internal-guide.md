@@ -6,6 +6,8 @@
 - The chose location to mount files in `early-mount.d` is placed in same place with `sepolicy.rules` directory. Example your directory to store custom sepolicy rules is `/data/unencrypted/magisk` then the location to mount files is `/data/unencrypted/early-mount.d`
 - You can place your files into the corresponding location under `early-mount.d` directory. For example, you want to replace `/vendor/etc/vintf/manifest.xml` and your mount directory is `/data/unencrypted/early-mount.d`, copy your `manifest.xml` to `/data/unencrypted/early-mount/system/vendor/etc/vintf/manifest.xml` , Magisk will mount your files in the next reboot​
 
+**Early-init mount only support simple mount, which means it can replace files but cannot add new files, folders or replace folders**
+
 ## File or folder removal
 
 - Magisk provides the way to modify read-only system files by using modules while keeping system partition untouched. The beaty of Magisk modules is the changes are stored in data partition while it is visible in system partition. 
