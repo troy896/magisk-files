@@ -1,4 +1,4 @@
-## Magisk ec230799-delta by HuskyDG
+## Magisk 43e8fee1-delta by HuskyDG
 
 ### What is new?
 
