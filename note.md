@@ -1,8 +1,8 @@
-## Magisk 0ca9c3e2-delta by HuskyDG
+## Magisk ec230799-delta by HuskyDG
 
 ### What is new?
 
-- Signature check enforcement is removed, there is no point to check signature in open source software.
+- Bootloop protector will reboot your device into recovery to let you do some stuffs before reboot if you have bootloop. It is also good for devices with broken volume button.
 
 ### Diff from official
 
@@ -24,7 +24,7 @@
 - [General] Introduce Bootloop Protection feature to automatically boot into Core-only mode if zygote fails to start for many times
 - [General] Add f2fs tuning for unencrypted devices
 - [General] Lock `sys.oem_unlock_allowed` to `0` and `init.svc.adbd` to `stopped`
-- [MagiskInit] Allowing developers to replace files in the system at the earliest init stage.
+- [MagiskInit] Support Early-init mount: allow to replace files in the system at the earliest init stage.
 
 ### About Canary and Debug?
 
