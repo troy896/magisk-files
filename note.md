@@ -2,7 +2,7 @@
 
 ### What is new?
 
-- Bootloop protector will reboot your device into recovery to let you do some stuffs before reboot if you have bootloop. It is also good for devices with broken volume button.
+- Bootloop protector will reboot your device into recovery to let you do some stuffs before reboot if you have bootloop. It is also good for devices with broken volume button. It is still triggering Core-Only mode if you reboot back into system.
 
 ### Diff from official
 
