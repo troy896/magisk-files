@@ -1,8 +1,8 @@
-## Magisk 43e8fee1-delta by HuskyDG
+## Magisk c9701e58-delta by HuskyDG
 
 ### What is new?
 
-- Bootloop protector will reboot your device into recovery to let you do some stuffs before reboot if you have bootloop. It is also good for devices with broken volume button. It is still triggering Core-Only mode if you reboot back into system.
+- Minor fixes
 
 ### Diff from official
 
