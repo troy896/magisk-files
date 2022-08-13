@@ -1,4 +1,4 @@
-## Magisk befe200a-delta by HuskyDG
+## Magisk d233698b-delta by HuskyDG
 
 ### What is new?
 
