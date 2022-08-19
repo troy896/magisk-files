@@ -1,10 +1,8 @@
-## Magisk cb590e21-delta by HuskyDG
+## Magisk 32a2ea3a-delta by HuskyDG
 
 ### What is new?
 
-- Support Android 5 Emulator
-- Fix the `/data` need of Magisk survival script `addon.d` when `/data` can't be decrypted
-- Skip early-mount in Core-only mode
+- Fight against evil
 
 ### Diff from official
 
