@@ -1,8 +1,8 @@
-## Magisk ec008f3a-delta by HuskyDG
+## Magisk b98558b8-delta by HuskyDG
 
 ### What is new?
 
-- Fix MagiskHide handle slowly
+- Minor fixes
 
 ### Diff from official
 
