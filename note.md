@@ -2,11 +2,11 @@
 
 ### What is new?
 
-- Allow MagiskHide to handle isolated process and app_zygote (Android 11+)
+- Fix MagiskHide handle slowly
 
 ### Diff from official
 
-- [General] MagiskHide is restored and enabled by default
+- [General] MagiskHide rely on logcat to listen start up process events
 - [General] The package name is `io.github.huskydg.magisk`
 - [General] Add Core-only mode
 - [General] Support installing Magisk without boot image for emulators
