@@ -43,7 +43,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Source code
 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/archive/32a2ea3a.zip)
+- [Source code](https://github.com/topjohnwu/Magisk/archive/cda32c8f.zip)
 
 
 ## FAQ

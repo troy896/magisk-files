@@ -1,8 +1,8 @@
-## Magisk 32a2ea3a-delta by HuskyDG
+## Magisk cda32c8f-delta by HuskyDG
 
 ### What is new?
 
-- Fight against evil
+- MagiskHide can defeat isolated process and app_zygote (need Android 11+)
 
 ### Diff from official
 
