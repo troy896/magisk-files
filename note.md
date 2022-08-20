@@ -1,8 +1,8 @@
-## Magisk b98558b8-delta by HuskyDG
+## Magisk 3ed0ab8e-delta by HuskyDG
 
 ### What is new?
 
-- Minor fixes
+- Delay MagiskHide app_zygote monitor to every 0.01s
 
 ### Diff from official
 
