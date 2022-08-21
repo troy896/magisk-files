@@ -1,8 +1,9 @@
-## Magisk 3ed0ab8e-delta by HuskyDG
+## Magisk 5dc3b7a6-delta by HuskyDG
 
 ### What is new?
 
-- Delay MagiskHide app_zygote monitor to every 0.01s
+- Set system block as read-write before install addon.d
+- Bump versionCode to 25202, follow new Canary release from official source
 
 ### Diff from official
 
