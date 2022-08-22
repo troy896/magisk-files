@@ -1,9 +1,9 @@
-## Magisk 5dc3b7a6-delta by HuskyDG
+## Magisk d289e576-delta by HuskyDG
 
 ### What is new?
 
-- Set system block as read-write before install addon.d
-- Bump versionCode to 25202, follow new Canary release from official source
+- Slow down MagiskHide a bit
+- Add zygote notifier for MagiskHide
 
 ### Diff from official
 
@@ -18,13 +18,26 @@
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Early-init mount
 
+### About MagiskHide
+
+- Start with Magisk Delta 25202, to avoid [Tracer detection](https://github.com/vvb2060/magiskdetector), MagiskHide will start to rely on logcat to catch start up app process. For MagiskHide to work, do not disable logd. ROMs with abnormal or slow logcats will cause MagiskHide to work incorrectly.
+- Hiding isolated process and app zygote is now possible in MagiskHide on Android 11 and higher. For Android 10 and bellow, because of isolated processes's mount namespace use the same with zygote's mount namespace, handling isolated processes is not possible at all, you will need [Riru-Unshare](https://github.com/vvb2060/riru-unshare/releases) to force isolated processes's mount namespace to be detached.
+
 ### About Canary and Debug?
 
 - They are built from the same source code
 - Debug has more detailed logs than Canary
 
-## Magisk (b496923c) (25201)
+## Magisk (4737c511) (25202)
 
-Synchronized to [b496923c](https://github.com/topjohnwu/magisk/tree/b496923c)
+- [General] Fix minor bug in module files mounting implementation
+- [MagiskPolicy] Fix minor bug in command line argument parsing
+- [Zygisk] Prevent crashing daemon in error
+- [Zygisk] Rewrite zygote code injection with new loader library approach
 
-- No changelog
+## Diffs to v25.2
+
+- [General] Fix minor bug in module files mounting implementation
+- [MagiskPolicy] Fix minor bug in command line argument parsing
+- [Zygisk] Prevent crashing daemon in error
+- [Zygisk] Rewrite zygote code injection with new loader library approach
