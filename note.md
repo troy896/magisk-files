@@ -1,4 +1,4 @@
-## Magisk d289e576-delta by HuskyDG
+## Magisk e67adca5-delta by HuskyDG
 
 ### What is new?
 

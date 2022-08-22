@@ -10,7 +10,7 @@ This repo hosts Magisk delta related files
 
 > If you are looking for official Magisk source, you are in the wrong place, please [go to this page and download Official Magisk](https://github.com/topjohnwu/Magisk)
 
-Yet another crazy custom Magisk by HuskyDG, is always synchronized with official Magisk, including MagiskHide and some custom features.
+Yet another crazy custom Magisk by HuskyDG, is always synchronized with official Magisk, including back MagiskHide and some custom features.
 
 ## Download
 
@@ -43,7 +43,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Source code
 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/tree/d289e576)
+- [Source code](https://github.com/topjohnwu/Magisk/tree/e67adca5)
 
 
 ## FAQ
@@ -76,8 +76,6 @@ The reasons why I restore MagiskHide:
 - MagiskHide is removed from official Magisk
 - [Zygisk is easily detected](#zygisk-is-easily-detected) and there are nearly no complete hiding method for Zygisk.
 - The new feature of Magisk called Zygisk is incompatible with Riru
-
-Start with Magisk Delta 25202, to avoid [Tracer detection](https://github.com/vvb2060/magiskdetector), MagiskHide will start to rely on logcat to catch start up app process. For MagiskHide to work, do not disable logd. ROMs with abnormal or slow logcats will cause MagiskHide to work incorrectly. Hiding isolated process and app zygote is now possible in MagiskHide on Android 11 and higher. For Android 10 and bellow, because of isolated processes use the same with zygote's mount namespace, you will need [Riru-Unshare](https://github.com/vvb2060/riru-unshare/releases/latest) to force isolated processes's mount namespace to be detached.
 
 ### Why not restore Magisk modules online repo?
 
