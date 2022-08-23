@@ -1,9 +1,9 @@
-## Magisk e67adca5-delta by HuskyDG
+## Magisk 8900c811-delta by HuskyDG
 
 ### What is new?
 
-- Slow down MagiskHide a bit
-- Add zygote notifier for MagiskHide
+- MagiskHide is no longer enabled by default
+- Fix Magisk does not add its binary to `/system/bin` on some ROM
 
 ### Diff from official
 
