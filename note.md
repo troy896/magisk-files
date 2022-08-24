@@ -1,11 +1,10 @@
-## Magisk 8900c811-delta by HuskyDG
+## Magisk 129b509f-delta by HuskyDG
 
 ### What is new?
 
-- MagiskHide is no longer enabled by default
-- Fix Magisk does not add its binary to `/system/bin` on some ROM
+- Upstream to Magisk Canary 25203
 
-### Diff from official
+### Diffs to official Magisk
 
 - [General] MagiskHide rely on logcat to listen start up process events
 - [General] The package name is `io.github.huskydg.magisk`
@@ -34,6 +33,10 @@
 - [MagiskPolicy] Fix minor bug in command line argument parsing
 - [Zygisk] Prevent crashing daemon in error
 - [Zygisk] Rewrite zygote code injection with new loader library approach
+
+## Magisk (38ab6858) (25203)
+
+- Update app to target API 33
 
 ## Diffs to v25.2
 
