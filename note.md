@@ -1,8 +1,8 @@
-## Magisk 129b509f-delta by HuskyDG
+## Magisk 391de567-delta by HuskyDG
 
 ### What is new?
 
-- Upstream to Magisk Canary 25203
+- MagiskHide update, completely rely on logcat. Use MagiskHide with logcat turn off is meanless. It should address app_zygote, high cpu and battery usage. If it is not working normally, please send feedback (t.me/magiskdelta).
 
 ### Diffs to official Magisk
 
