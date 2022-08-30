@@ -1,8 +1,8 @@
-## Magisk 391de567-delta by HuskyDG
+## Magisk 400afc69-delta by HuskyDG
 
 ### What is new?
 
-- MagiskHide update, completely rely on logcat. Use MagiskHide with logcat turn off is meanless. It should address app_zygote, high cpu and battery usage. If it is not working normally, please send feedback (t.me/magiskdelta).
+- Disable zygote preforking if enable MagiskHide since we have switched to ptrace zygote fork event through logcat and zygote preforking breaks MagiskHide
 
 ### Diffs to official Magisk
 
