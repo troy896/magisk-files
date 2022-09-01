@@ -33,7 +33,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ### Canary / Debug
 
-⚠ Magisk Canary/Debug may be unstable and is intended only for advanced users who knew how to recover from a bootloop or crash. 
+⚠ Only accept bugreports from Magisk Delta variant.
 
 #### Download
 
@@ -47,6 +47,22 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 
 ## FAQ
+
+### Why should use MagiskHide in Magisk Delta?
+
+- MagiskHide is not dead yet. MagiskHide is still effective to hide root from apps.
+
+- MagiskHide does not require to inject into zygote, so it will nearly not be detectable, does not like other hiding injection modules. And hiding root is not necessary to inject into zygote.
+
+- Since Magisk Delta 25203, MagiskHide has switched to rely on logcat, make it is more undetectable.
+
+- On Android 11+, it is unnecessary to inject into zygote in order to handle isolated process or app zygote.
+
+- MagiskHide is removed from official Magisk. Leave users no choice to hide root from apps.
+
+- Zygisk is easily detected and cannot be hidden, DenyList is the out of reality feature which unload zygisk in selected apps but does not hide zygisk, in additional it also make some modules less compatible and stop working. In fact, everyone will want their modules to work on apps that they hide root from.
+
+- Riru has RiruHide to hide itself from maps. There are no such feature exists on zygisk. And Riru does not working if zygisk is enabled.
 
 ### How to switch from current Magisk to Magisk Delta and vice versa?
 
@@ -67,15 +83,6 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 2. Install and open Magisk Delta
 3. Grant root access to Magisk Delta, click "Install" under Magisk field and use "Direct Install into system partition" option instead of "Direct Install" option. If you don't see this option, close and re-open Magisk Delta app.
 4. Disable Root access in emulator settings
-
-### Why restore MagiskHide?
-
-MagiskHide is still effectively useful to hide root from almost banking apps and games after it was discontinued by the original developer. 
-
-The reasons why I restore MagiskHide:
-- MagiskHide is removed from official Magisk
-- [Zygisk is easily detected](#zygisk-is-easily-detected) and there are nearly no complete hiding method for Zygisk.
-- The new feature of Magisk called Zygisk is incompatible with Riru
 
 ### Why not restore Magisk modules online repo?
 
