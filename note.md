@@ -1,8 +1,8 @@
-## Magisk 400afc69-delta by HuskyDG
+## Magisk 31b7e39f-delta by HuskyDG
 
 ### What is new?
 
-- Disable zygote preforking if enable MagiskHide since we have switched to ptrace zygote fork event through logcat and zygote preforking breaks MagiskHide
+- Update addon.d script
 
 ### Diffs to official Magisk
 
