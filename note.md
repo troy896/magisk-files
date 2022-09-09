@@ -1,8 +1,8 @@
-## Magisk 31b7e39f-delta by HuskyDG
+## Magisk b2f9608b-delta by HuskyDG
 
 ### What is new?
 
-- Update addon.d script
+- Update MagiskHide, decrease the chance of facing the problem that root detection is performed before MagiskHide handles it
 
 ### Diffs to official Magisk
 
