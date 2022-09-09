@@ -1,8 +1,8 @@
-## Magisk b2f9608b-delta by HuskyDG
+## Magisk b68eccb8-delta by HuskyDG
 
 ### What is new?
 
-- Update MagiskHide, decrease the chance of facing the problem that root detection is performed before MagiskHide handles it
+- Revert "Inject Magisk service through `exec`"
 
 ### Diffs to official Magisk
 
