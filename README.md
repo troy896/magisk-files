@@ -88,9 +88,11 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 
 The official Magisk modules repository is dead and no longer maintained. Due to that, add them back is meanless. However, [Fox2Code](https://github.com/Fox2Code) has developed [Magisk Modules Manager](https://github.com/Fox2Code/FoxMagiskModuleManager)  app which allows you to download Magisk modules online.
 
-### Zygisk is easily detected
+## Donate me
 
-[Read here to learn more about Zygisk...](https://huskydg.github.io/blog/zygisk-can-be-detected-very-easily)
+- Paypal: [paypal.me/huskydg](http://paypal.me/huskydg)
+- You can now donate me if you want. Remember, I will not make this as a monetization tool and donate is not obligated. Thanks for all your supports and hope you have a good day! 👍
+
 
 ## Other links
 
