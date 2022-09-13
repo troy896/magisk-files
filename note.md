@@ -2,7 +2,7 @@
 
 ### What is new?
 
-- Revert "Inject Magisk service through `exec`"
+- Minor MagiskHide changes
 
 ### Diffs to official Magisk
 
@@ -26,13 +26,6 @@
 
 - They are built from the same source code
 - Debug has more detailed logs than Canary
-
-## Magisk (4737c511) (25202)
-
-- [General] Fix minor bug in module files mounting implementation
-- [MagiskPolicy] Fix minor bug in command line argument parsing
-- [Zygisk] Prevent crashing daemon in error
-- [Zygisk] Rewrite zygote code injection with new loader library approach
 
 ## Magisk (38ab6858) (25203)
 
