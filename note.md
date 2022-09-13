@@ -1,8 +1,8 @@
-## Magisk b68eccb8-delta by HuskyDG
+## Magisk 263d5ddb-delta by HuskyDG
 
 ### What is new?
 
-- Minor MagiskHide changes
+- Upstream to [66a7ef56](https://github.com/topjohnwu/Magisk/commits/66a7ef5615f463435b45d29e737d37cf48a9b78c)
 
 ### Diffs to official Magisk
 
@@ -26,6 +26,10 @@
 
 - They are built from the same source code
 - Debug has more detailed logs than Canary
+
+## Magisk (66a7ef56) (25203)
+
+- Upstream to [66a7ef56](https://github.com/topjohnwu/Magisk/commits/66a7ef5615f463435b45d29e737d37cf48a9b78c)
 
 ## Magisk (38ab6858) (25203)
 
