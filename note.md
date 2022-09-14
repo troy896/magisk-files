@@ -1,8 +1,8 @@
-## Magisk 263d5ddb-delta by HuskyDG
+## Magisk 1b614a07-delta by HuskyDG
 
 ### What is new?
 
-- Upstream to [66a7ef56](https://github.com/topjohnwu/Magisk/commits/66a7ef5615f463435b45d29e737d37cf48a9b78c)
+- Update hide props
 
 ### Diffs to official Magisk
 
