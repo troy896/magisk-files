@@ -1,8 +1,8 @@
-## Magisk 1b614a07-delta by HuskyDG
+## Magisk e506fa03-delta by HuskyDG
 
 ### What is new?
 
-- Update hide props
+- Fix logcat monitoring in MagiskHide
 
 ### Diffs to official Magisk
 
