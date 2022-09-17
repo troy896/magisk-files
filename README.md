@@ -48,19 +48,23 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ## FAQ
 
-### Why should use MagiskHide in Magisk Delta?
+### Is Zygisk DenyList an alternate feature of MagiskHide?
 
-- MagiskHide is not dead yet. MagiskHide is still effective to hide root from apps.
+No. Denylist could look a bit like MagiskHide but it cannot be considered a hidden feature of Zygisk. Denylist is the feature to prevent modules from loading in applications that are on the denylist thus break some modules. Apps are on Denylist can still know Zygisk if it wants to. It doesn't even hide the presence of zygisk. In additional, Zygisk itself has many problems and leaves traces that cannot be hidden.
 
-- MagiskHide does not require to inject into zygote, so it will nearly not be detectable, does not like other hiding injection modules. And hiding root is not necessary to inject into zygote.
+### Is MagiskHide dead?
 
-- Since Magisk Delta 25203, MagiskHide has switched to rely on logcat, make it is more undetectable.
+- Depend on what you expected. MagiskHide is still effective to hide root from apps.
+
+- MagiskHide does not require to inject into zygote or depend on Zygisk, so it can void being detectable, does not like other hiding injection modules. And hiding root is not necessary to inject into zygote.
+
+- Since Magisk Delta 25203, MagiskHide has switched to rely on logcat to avoid Tracer detection.
 
 - On Android 11+, it is unnecessary to inject into zygote in order to handle isolated process or app zygote.
 
 - MagiskHide is removed from official Magisk. Leave users no choice to hide root from apps.
 
-- Zygisk is easily detected and cannot be hidden, DenyList is the out of reality feature which unload zygisk in selected apps but does not hide zygisk, in additional it also make some modules less compatible and stop working. In fact, everyone will want their modules to work on apps that they hide root from.
+- Zygisk is easily detected and has some problems that cannot be hidden.
 
 - Riru has RiruHide to hide itself from maps. There are no such feature exists on zygisk. And Riru does not working if zygisk is enabled.
 
