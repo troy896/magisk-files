@@ -1,8 +1,8 @@
-## Magisk e506fa03-delta by HuskyDG
+## Magisk 30e718a2-delta by HuskyDG
 
 ### What is new?
 
-- Fix logcat monitoring in MagiskHide
+- Try cleaning up Magisk service traces in `init.rc` to make some apps happy (NapsternetV, VNPay, ...)
 
 ### Diffs to official Magisk
 
