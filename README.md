@@ -43,14 +43,13 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Source code
 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/tree/30e718a2)
-
+- [Source code](https://github.com/topjohnwu/Magisk/tree/c9bd7716)
 
 ## FAQ
 
 ### Is Zygisk DenyList an alternate feature of MagiskHide?
 
-No. Denylist could look a bit like MagiskHide but it cannot be considered a hidden feature of Zygisk. Denylist is the feature to prevent modules from loading in applications that are on the denylist thus break some modules. Apps are on Denylist can still know Zygisk if it wants to. It doesn't even hide the presence of zygisk. In additional, Zygisk itself has many problems and leaves traces that cannot be hidden.
+No. Although Denylist could look a bit like MagiskHide but it cannot be considered as an alternate solution of MagiskHide. Denylist is the feature to prevent modules from loading in applications that are on the denylist thus break some modules. Apps are on Denylist can still know Zygisk if it wants to. It doesn't even hide the presence of zygisk. In additional, Zygisk itself has many problems and leaves traces that cannot be hidden.
 
 ### Is MagiskHide dead?
 
