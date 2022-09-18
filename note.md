@@ -1,8 +1,8 @@
-## Magisk c9bd7716-delta by HuskyDG
+## Magisk b433cbee-delta by HuskyDG
 
 ### What is new?
 
-- Try cleaning up Magisk service traces in init.rc to make some apps happy Part.2 (NapsternetV, VNPay, …)
+- Try cleaning up Magisk service traces in init.rc to make some apps happy Part.3 (NapsternetV, VNPay, …)
 
 ### Diffs to official Magisk
 
