@@ -47,10 +47,6 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ## FAQ
 
-### Is Zygisk DenyList an alternate feature of MagiskHide?
-
-No. Although Denylist could look a bit like MagiskHide but it cannot be considered as an alternate solution of MagiskHide. Denylist is the feature to prevent modules from loading in applications that are on the denylist thus break some modules. Apps are on Denylist can still know Zygisk if it wants to. It doesn't even hide the presence of zygisk. In additional, Zygisk itself has many problems and leaves traces that cannot be hidden.
-
 ### Is MagiskHide dead?
 
 - Depend on what you expected. MagiskHide is still effective to hide root from apps.
@@ -61,11 +57,9 @@ No. Although Denylist could look a bit like MagiskHide but it cannot be consider
 
 - On Android 11+, it is unnecessary to inject into zygote in order to handle isolated process or app zygote.
 
-- MagiskHide is removed from official Magisk. Leave users no choice to hide root from apps.
+- MagiskHide is removed from official Magisk.
 
-- Zygisk is easily detected and has some problems that cannot be hidden.
-
-- Riru has RiruHide to hide itself from maps. There are no such feature exists on zygisk. And Riru does not working if zygisk is enabled.
+- Zygisk is easily detected and lacks of hiding ability
 
 ### How to switch from current Magisk to Magisk Delta and vice versa?
 
