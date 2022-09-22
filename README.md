@@ -81,6 +81,12 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 3. Grant root access to Magisk Delta, click "Install" under Magisk field and use "Direct Install into system partition" option instead of "Direct Install" option. If you don't see this option, close and re-open Magisk Delta app.
 4. Disable Root access in emulator settings
 
+### Pass Safetynet / Play Integrity (Device Integrity)
+
+1. Enable Zygisk or install Riru core
+2. Enable MagiskHide and install [Safetynet Fix Mod](https://github.com/HuskyDG/safetynet-integrity-fix/releases/latest)
+3. Reboot your device
+
 ### Why not restore Magisk modules online repo?
 
 The official Magisk modules repository is dead and no longer maintained. Due to that, add them back is meanless. However, [Fox2Code](https://github.com/Fox2Code) has developed [Magisk Modules Manager](https://github.com/Fox2Code/FoxMagiskModuleManager)  app which allows you to download Magisk modules online.
