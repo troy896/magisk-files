@@ -1,21 +1,22 @@
-## Magisk b433cbee-delta by HuskyDG
+## Magisk ed4b9f6d-delta by HuskyDG
 
 ### What is new?
 
-- Try cleaning up Magisk service traces in init.rc to make some apps happy Part.3 (NapsternetV, VNPay, …)
+- Update `addon.d` script
+- Revert "`chmod` node to `644` when tuning f2fs
 
 ### Diffs to official Magisk
 
-- [General] MagiskHide rely on logcat to listen start up process events
+- [General] MagiskHide uses system logcat to monitor app processes startup
 - [General] The package name is `io.github.huskydg.magisk`
-- [General] Add Core-only mode
-- [General] Support installing Magisk without boot image for emulators
+- [General] Support Magisk installation without boot image for emulators
 - [General] Fix the `/data` need of Magisk survival script `addon.d` when `/data` can't be decrypted
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules
 - [General] Built-in Bootloop Protection
 - [General] Tune F2FS for unencrypted devices
-- [MagiskInit] Support Early-init mount
+- [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
+- [MagiskInit] Support loading custom rc script from pre-init directory
 
 ### About MagiskHide
 
