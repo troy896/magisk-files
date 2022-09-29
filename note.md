@@ -1,9 +1,8 @@
-## Magisk ed4b9f6d-delta by HuskyDG
+## Magisk 63af8db0-delta by HuskyDG
 
 ### What is new?
 
-- Update `addon.d` script
-- Revert "`chmod` node to `644` when tuning f2fs
+- Restore "`chmod` node to `644` when tuning f2fs
 
 ### Diffs to official Magisk
 
