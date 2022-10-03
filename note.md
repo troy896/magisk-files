@@ -1,12 +1,12 @@
-## Magisk 63af8db0-delta by HuskyDG
+## Magisk e4b8d53d-delta by HuskyDG
 
 ### What is new?
 
-- Restore "`chmod` node to `644` when tuning f2fs
+- Add option to clean up Magisk `hidelist`
 
 ### Diffs to official Magisk
 
-- [General] MagiskHide uses system logcat to monitor app processes startup
+- [General] Restore MagiskHide, uses system logcat to monitor app processes startup: disabled or abnormal logcat can't use MagiskHide.
 - [General] The package name is `io.github.huskydg.magisk`
 - [General] Support Magisk installation without boot image for emulators
 - [General] Fix the `/data` need of Magisk survival script `addon.d` when `/data` can't be decrypted
@@ -16,11 +16,6 @@
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
-
-### About MagiskHide
-
-- Start with Magisk Delta 25202, to avoid [Tracer detection](https://github.com/vvb2060/magiskdetector), MagiskHide will start to rely on logcat to catch start up app process. For MagiskHide to work, do not disable logd. ROMs with abnormal or slow logcats will cause MagiskHide to work incorrectly.
-- Hiding isolated process and app zygote is now possible in MagiskHide on Android 11 and higher. For Android 10 and bellow, because of isolated processes's mount namespace use the same with zygote's mount namespace, handling isolated processes is not possible at all, you will need [Riru-Unshare](https://github.com/vvb2060/riru-unshare/releases) to force isolated processes's mount namespace to be detached.
 
 ### About Canary and Debug?
 
