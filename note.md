@@ -1,8 +1,8 @@
-## Magisk e4b8d53d-delta by HuskyDG
+## Magisk d0a0b617-delta by HuskyDG
 
 ### What is new?
 
-- Add option to clean up Magisk `hidelist`
+- MagiskHide: only unmount tmpfs created by Magisk
 
 ### Diffs to official Magisk
 
