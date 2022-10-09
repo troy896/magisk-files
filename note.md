@@ -1,8 +1,6 @@
-## Magisk d0a0b617-delta by HuskyDG
+## Magisk e4b8d53d-delta by HuskyDG
 
-### What is new?
-
-- MagiskHide: only unmount tmpfs created by Magisk
+- Downgrade
 
 ### Diffs to official Magisk
 
