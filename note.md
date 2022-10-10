@@ -1,6 +1,9 @@
-## Magisk e4b8d53d-delta by HuskyDG
+## Magisk f757317b-delta by HuskyDG
 
-- Downgrade
+### What is new?
+
+- To avoid some problems, `early-mount.d` no longer mount files directly from `$(magisk --path)/.magisk/mirror/early-mount`, the content of `early-mount.d` will be copied to tmpfs and bind mount
+- Update some translation
 
 ### Diffs to official Magisk
 
