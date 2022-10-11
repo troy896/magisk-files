@@ -1,8 +1,8 @@
- ## Magisk f757317b-delta by HuskyDG
+ ## Magisk 2a2c2370-delta by HuskyDG
 
 ### What is new?
 
-- Move tuning f2fs to boot completed stage
+- Synchronized with official magisk source
 
 ### Diffs to official Magisk
 
@@ -22,13 +22,10 @@
 - They are built from the same source code
 - Debug has more detailed logs than Canary
 
-## Magisk (66a7ef56) (25203)
+## Magisk (c3b4678f) (25204)
 
-- Upstream to [66a7ef56](https://github.com/topjohnwu/Magisk/commits/66a7ef5615f463435b45d29e737d37cf48a9b78c)
-
-## Magisk (38ab6858) (25203)
-
-- Update app to target API 33
+- Make hiding the Magisk app 100% offline
+- Cleanups and minor refactoring of Zygisk
 
 ## Diffs to v25.2
 
