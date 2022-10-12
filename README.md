@@ -91,6 +91,11 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 
 The official Magisk modules repository is dead and no longer maintained. Due to that, add them back is meanless. However, [Fox2Code](https://github.com/Fox2Code) has developed [Magisk Modules Manager](https://github.com/Fox2Code/FoxMagiskModuleManager)  app which allows you to download Magisk modules online.
 
+### Why should you not use Magisk Delta?
+
+<img src="https://i.imgur.com/vrOczer.jpg"/> 
+
+
 ## Donate me
 
 - Paypal: [paypal.me/huskydg](http://paypal.me/huskydg)
@@ -100,11 +105,7 @@ The official Magisk modules repository is dead and no longer maintained. Due to 
 ## Other links
 
 - [Internal Documents](./docs/internal-guide.md)
-
-## Other stuff
-
-- [Riru Core](https://github.com/RikkaApps/Riru/releases)
-- [Isolated MagiskHider](https://github.com/HuskyDG/riru-momohider/releases)
+- [Telegram group](https://t.me/magiskdelta)
 
 ## License
 
