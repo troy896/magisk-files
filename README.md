@@ -47,20 +47,6 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ## FAQ
 
-### Is MagiskHide dead?
-
-- Depend on what you expected. MagiskHide is still effective to hide root from apps.
-
-- MagiskHide does not require to inject into zygote or depend on Zygisk, so it can void being detectable, does not like other hiding injection modules. And hiding root is not necessary to inject into zygote.
-
-- Since Magisk Delta 25203, MagiskHide has switched to rely on logcat to avoid Tracer detection.
-
-- On Android 11+, it is unnecessary to inject into zygote in order to handle isolated process or app zygote.
-
-- MagiskHide is removed from official Magisk.
-
-- Zygisk is easily detected and lacks of hiding ability
-
 ### How to switch from current Magisk to Magisk Delta and vice versa?
 
 > Some Mediatek devices prevent boot partition from being modified (or kernel doesn't allow to modify boot image) after booting. When directly installing, you might end up with "/dev/xxxx is read-only" error or the installation seems to be successful but actually fails. In this case, please try patching boot image with Magisk app and flash it from Custom Recovery or Fastboot instead. 
@@ -71,6 +57,13 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 2. Open Magisk app, click "Modules" tab -> "Install from storage" and choose `magisk.zip`
 3. Reboot your device
 
+### How do I run magisk on devices with exploit/temporarily root?
+
+- Run your exploit root tool, you shall have root access after exploitation
+- Push `magisk.apk` and `busybox` binary to `/data/local/tmp` and run [this script](https://raw.githubusercontent.com/topjohnwu/Magisk/1e6dbad3bbd68bf371511d8f6c1756db0ed61f80/scripts/avd_magisk.sh) with root access
+
+***IMPORTANT! Do not update Magisk through Magisk app when bootloader is still locked or you will brick your device with modified boot image***
+
 
 ### How to install Magisk into emulator (such as NoxPlayer, LDPlayer, etc...)?
 
@@ -79,7 +72,7 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 1. Enable Root access in emulator settings
 2. Install and open Magisk Delta
 3. Grant root access to Magisk Delta, click "Install" under Magisk field and use "Direct Install into system partition" option instead of "Direct Install" option. If you don't see this option, close and re-open Magisk Delta app.
-4. Disable Root access in emulator settings
+4. ~~Disable Root access in emulator settings~~ Some emulators delete `su` executable after disabling root access, accidentally remove magisk's `su` so backup and delete `/system/xbin/su` instead.
 
 ### Pass Safetynet / Play Integrity (Device Integrity)
 
