@@ -1,15 +1,17 @@
- ## Magisk 2a2c2370-delta by HuskyDG
+## Magisk 22d57219-delta by HuskyDG
 
 ### What is new?
 
-- Synchronized with official magisk source
+- Synchronized with official magisk source: There is nothing new since there is no denylist in Magisk Delta.
+- Revert "Avoid doing unmount for SysUI" commit. Who will add SystemUI to hidelist / denylist ???
 
 ### Diffs to official Magisk
 
 - [General] Restore MagiskHide, uses system logcat to monitor app processes startup: disabled or abnormal logcat can't use MagiskHide.
-- [General] The package name is `io.github.huskydg.magisk`
-- [General] Support Magisk installation without boot image for emulators
-- [General] Fix the `/data` need of Magisk survival script `addon.d` when `/data` can't be decrypted
+- [General] DenyList is removed. There is no zygisk denylist feature
+- [App] The package name is `io.github.huskydg.magisk`
+- [App] Support Magisk installation without boot image for emulators
+- [General] Copy required files to `/system` for `addon.d`
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules
 - [General] Built-in Bootloop Protection
