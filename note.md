@@ -1,9 +1,8 @@
-## Magisk 22d57219-delta by HuskyDG
+## Magisk 7f473647-delta by HuskyDG
 
 ### What is new?
 
-- Synchronized with official magisk source: There is nothing new since there is no denylist in Magisk Delta.
-- Revert "Avoid doing unmount for SysUI" commit. Who will add SystemUI to hidelist / denylist ???
+- Support logcat-based MagiskHide for Android 9 and bellow
 
 ### Diffs to official Magisk
 
