@@ -1,9 +1,8 @@
-## Magisk f4732800-delta by HuskyDG
+## Magisk 7113a08b-delta by HuskyDG
 
 ### What is new?
 
-- Properly detect zygote in MagiskHide, support logcat MagiskHide when SELinux is disabled
-- Show system installation if Magisk is not installed into boot image
+- Revert "Use stable random number seed" [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
 
 ### Diffs to official Magisk
 
@@ -18,7 +17,6 @@
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
-- [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
 - [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 
 
