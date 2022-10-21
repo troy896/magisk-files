@@ -1,9 +1,9 @@
-## Magisk 19896242-delta by HuskyDG
+## Magisk f4732800-delta by HuskyDG
 
 ### What is new?
 
-- Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
-- wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
+- Properly detect zygote in MagiskHide, support logcat MagiskHide when SELinux is disabled
+- Show system installation if Magisk is not installed into boot image
 
 ### Diffs to official Magisk
 

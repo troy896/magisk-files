@@ -43,7 +43,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Source code
 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/tree/19896242)
+- [Source code](https://github.com/topjohnwu/Magisk/tree/f4732800)
 
 ## FAQ
 
@@ -72,7 +72,8 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 1. Enable Root access in emulator settings
 2. Install and open Magisk Delta
 3. Grant root access to Magisk Delta, click "Install" under Magisk field and use "Direct Install into system partition" option instead of "Direct Install" option. If you don't see this option, close and re-open Magisk Delta app.
-4. ~~Disable Root access in emulator settings~~ Some emulators delete `su` executable after disabling root access, accidentally remove magisk's `su` so backup and delete `/system/xbin/su` instead.
+4. Disable Root access in emulator settings.
+    *Some emulators delete `su` executable after disabling root access, accidentally remove magisk's `su` so backup and delete `/system/xbin/su` instead.*
 
 ### Pass Safetynet / Play Integrity (Device Integrity)
 
