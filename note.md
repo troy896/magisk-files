@@ -1,8 +1,9 @@
-## Magisk 7f473647-delta by HuskyDG
+## Magisk 19896242-delta by HuskyDG
 
 ### What is new?
 
-- Support logcat-based MagiskHide for Android 9 and bellow
+- Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
+- wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 
 ### Diffs to official Magisk
 
@@ -17,6 +18,9 @@
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
+- [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
+- [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
+
 
 ### About Canary and Debug?
 
