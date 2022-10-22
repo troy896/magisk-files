@@ -1,8 +1,8 @@
-## Magisk 7113a08b-delta by HuskyDG
+## Magisk c7710975-delta by HuskyDG
 
 ### What is new?
 
-- Revert "Use stable random number seed" [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
+- Properly detect zygote and system_server in logcat MagiskHide
 
 ### Diffs to official Magisk
 
