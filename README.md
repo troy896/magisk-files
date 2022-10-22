@@ -67,7 +67,9 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 
 ### How to install Magisk into emulator (such as NoxPlayer, LDPlayer, etc...)?
 
-> Currently, only Magisk Delta support Magisk installation into system partition. Although emulator has ramdisk image, patching ramdisk is not used because ramdisk is stored in seperate partition with very SMALL disk size that is not enough to store Magisk binaries.
+> MumuPlayer X (Android 12) and Bluestacks are not supported. MumuPlayer X blocks running Magisk Delta for no reason.
+
+> Currently, only Magisk Delta support Magisk installation into system partition. Although emulator has ramdisk image, patching ramdisk is not used because ramdisk is stored in seperate partition with very SMALL disk size that is not enough to store Magisk binaries. There are no point to install Magisk systemlessly, so prefer system installation as it is simple!
 
 1. Enable Root access in emulator settings
 2. Install and open Magisk Delta
