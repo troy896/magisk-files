@@ -1,8 +1,4 @@
-## Magisk c7710975-delta by HuskyDG
-
-### What is new?
-
-- Properly detect zygote and system_server in logcat MagiskHide
+## Magisk 80af01d8-delta by HuskyDG
 
 ### Diffs to official Magisk
 

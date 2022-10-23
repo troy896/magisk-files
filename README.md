@@ -43,7 +43,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Source code
 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/tree/c7710975)
+- [Source code](https://github.com/topjohnwu/Magisk/tree/80af01d8)
 
 ## FAQ
 
@@ -67,9 +67,7 @@ The fast way to migrate to Magisk Delta or switch back to official Magisk: Just 
 
 ### How to install Magisk into emulator (such as NoxPlayer, LDPlayer, etc...)?
 
-> MumuPlayer X (Android 12) and Bluestacks are not supported. MumuPlayer X blocks running Magisk Delta for no reason.
-
-> Currently, only Magisk Delta support Magisk installation into system partition. Although emulator has ramdisk image, patching ramdisk is not used because ramdisk is stored in seperate partition with very SMALL disk size that is not enough to store Magisk binaries. There are no point to install Magisk systemlessly, so prefer system installation as it is simple!
+> Currently, only Magisk Delta support Magisk installation into system partition. Although emulator has ramdisk image, patching ramdisk is not used because ramdisk is stored in seperate partition with very SMALL disk size that is not enough to store Magisk binaries.
 
 1. Enable Root access in emulator settings
 2. Install and open Magisk Delta
