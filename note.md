@@ -1,4 +1,6 @@
-## Magisk 80af01d8-delta by HuskyDG
+## Magisk 40794b23-delta by HuskyDG
+
+- Minor fixes for logcat MagiskHide
 
 ### Diffs to official Magisk
 
