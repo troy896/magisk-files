@@ -1,6 +1,7 @@
-## Magisk 40794b23-delta by HuskyDG
+## Magisk 337626c0-delta by HuskyDG
 
-- Minor fixes for logcat MagiskHide
+- Support magic mount more partitions
+- Use stable random number seed
 
 ### Diffs to official Magisk
 
@@ -8,15 +9,16 @@
 - [General] DenyList is removed. There is no zygisk denylist feature
 - [App] The package name is `io.github.huskydg.magisk`
 - [App] Support Magisk installation without boot image for emulators
-- [General] Copy required files to `/system` for `addon.d`
+- [General] Copy required files to `/system` for `addon.d`, like Lygisk
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules
 - [General] Built-in Bootloop Protection
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
-- [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
-
+- [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268]
+- [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
+- [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340]
 
 ### About Canary and Debug?
 
