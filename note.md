@@ -1,7 +1,6 @@
-## Magisk 337626c0-delta by HuskyDG
+## Magisk 499eabb8-delta by HuskyDG
 
-- Support magic mount more partitions
-- Use stable random number seed
+- Add more support partitions (`/vendor_dlkm`, `/cust`, `/my_custom`)
 
 ### Diffs to official Magisk
 
@@ -17,7 +16,7 @@
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
 - [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268]
-- [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
+- [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`, `vendor_dlkm`, `cust`)
 - [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340]
 
 ### About Canary and Debug?
