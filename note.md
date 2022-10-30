@@ -1,11 +1,11 @@
-## Magisk 337626c0-delta by HuskyDG
+## Magisk 5a2fbbf8-delta by HuskyDG
 
-- Support magic mount more partitions
-- Use stable random number seed
+- Support Riru extension: MagiskHide no longer need to rely in logcat to work. Download [Riru extension for MagiskHide here](https://github.com/HuskyDG/riru-unshare/releases/tag/v3.0)
 
 ### Diffs to official Magisk
 
 - [General] Restore MagiskHide, uses system logcat to monitor app processes startup: disabled or abnormal logcat can't use MagiskHide.
+- [General] Support Riru extension: MagiskHide no longer need to rely in logcat to work. Download [Riru extension for MagiskHide here](https://github.com/HuskyDG/riru-unshare/releases/tag/v3.0)
 - [General] DenyList is removed. There is no zygisk denylist feature
 - [App] The package name is `io.github.huskydg.magisk`
 - [App] Support Magisk installation without boot image for emulators
