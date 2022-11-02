@@ -1,6 +1,6 @@
-## Magisk 4da7e219-delta by HuskyDG
+## Magisk bce92d4c-delta by HuskyDG
 
-- Update internal MagiskHide option for extension (need Riru unshare v4.0)
+- Don't abort Recovery install if system partition cannot be mounted. 
 
 ### Diffs to official Magisk
 
@@ -18,7 +18,7 @@
 - [MagiskInit] Support loading custom rc script from pre-init directory
 - [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268]
 - [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
-- [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340]
+- [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340]l
 
 ### About Canary and Debug?
 

@@ -32,7 +32,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 #### Stable
 
-- [Magisk 25.2-delta-3](https://huskydg.github.io/download/magisk/25.2-delta-3.apk)
+- [Magisk 25.2-delta-3](https://huskydg.github.io/download/magisk/25.2-delta.apk)
 - [Source code](https://huskydg.github.io/download/magisk/25.2-delta-3.zip)
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note_stable.md)
 
@@ -53,19 +53,27 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Source code
 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/tree/4da7e219)
+- [Source code](https://github.com/topjohnwu/Magisk/tree/bce92d4c-delta)
 
 ## FAQ
 
+### How to install Magisk Delta from start?
+
+- Process like installing Magisk: <https://topjohnwu.github.io/Magisk/install.html>
+
 ### How to switch from current Magisk to Magisk Delta and vice versa?
 
-> Some Mediatek devices prevent boot partition from being modified (or kernel doesn't allow to modify boot image) after booting. When directly installing, you might end up with "/dev/xxxx is read-only" error or the installation seems to be successful but actually fails. In this case, please try patching boot image with Magisk app and flash it from Custom Recovery or Fastboot instead. 
+Just do like when you update Magisk!
 
-The fast way to migrate to Magisk Delta or switch back to official Magisk: Just flash magisk app like a module.
+#### Direct Install (Recommended)
+
+1. Install, open and then grant root acccess to Magisk Delta.
+2. In **Magisk** section, tap "Install" and then "Direct Install". If you don't see this, try close and open the app.
+
+#### Just flash Magisk Delta from current Magisk app
 
 1. Rename the extension `magisk.apk` to `magisk.zip`
 2. Open Magisk app, click "Modules" tab -> "Install from storage" and choose `magisk.zip`
-3. Reboot your device
 
 ### How do I run magisk on devices with exploit/temporarily root?
 
