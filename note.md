@@ -1,6 +1,6 @@
-## Magisk bce92d4c-delta by HuskyDG
+## Magisk 71639983-delta by HuskyDG
 
-- Don't abort Recovery install if system partition cannot be mounted. 
+- Fix hidelist rescan_app
 
 ### Diffs to official Magisk
 
