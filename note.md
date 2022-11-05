@@ -1,6 +1,6 @@
-## Magisk 71639983-delta by HuskyDG
+## Magisk 5d48b6b2-delta by HuskyDG
 
-- Fix hidelist rescan_app
+- Introduce new feature of MagiskHide
 
 ### Diffs to official Magisk
 
@@ -16,9 +16,10 @@
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
-- [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268]
+- [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 - [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
-- [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340]l
+- [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
+- [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist) to allow Magisk to be visible for selected processes
 
 ### About Canary and Debug?
 
