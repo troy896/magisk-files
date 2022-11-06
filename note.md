@@ -1,6 +1,8 @@
-## Magisk 51be3c35-delta by HuskyDG
+## Magisk 427f028f-delta by HuskyDG
 
-- Process added to sulist will be also added to granted superuser list
+- SuList properly handles mount read-write system
+- No longer automatically unlock blocks. For anyone want to remount system as read-write, please use this command `magisk --unlock-blocks` for the first time every boot when remounting.
+- Allow to disable all magisk features (Zygisk, MagiskHide, SuList, Magisk modules) from recovery mode by creating `/cache/.disable_all`, `/persist/.disable_all` or `/metadata/.disable_all`
 
 ### Diffs to official Magisk
 
