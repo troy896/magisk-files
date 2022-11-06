@@ -1,6 +1,8 @@
-## Magisk 4f80e574-delta by HuskyDG
+## Magisk 427f028f-delta by HuskyDG
 
-- SuList: Fix mount su on rootfs
+- SuList properly handles mount read-write system
+- No longer automatically unlock blocks. For anyone want to remount system as read-write, please use this command `magisk --unlock-blocks` for the first time every boot when remounting.
+- Allow to disable all magisk features (Zygisk, MagiskHide, SuList, Magisk modules) from recovery mode by creating `/cache/.disable_all`, `/persist/.disable_all` or `/metadata/.disable_all`
 
 ### Diffs to official Magisk
 
