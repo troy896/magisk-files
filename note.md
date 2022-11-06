@@ -1,6 +1,6 @@
-## Magisk 26f4a32d-delta by HuskyDG
+## Magisk 794e343c-delta by HuskyDG
 
-- SuList: Fix mount su on rootfs
+- SuList: Don't use `SIGSTOP` and `SIGCONT` on non-target apps. Fix some detection app.
 
 ### Diffs to official Magisk
 
