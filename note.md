@@ -1,12 +1,12 @@
-## Magisk 5d48b6b2-delta by HuskyDG
+## Magisk 51be3c35-delta by HuskyDG
 
-- Introduce new feature of MagiskHide
+- Process added to sulist will be also added to granted superuser list
 
 ### Diffs to official Magisk
 
 - [General] Restore MagiskHide, uses system logcat to monitor app processes startup: disabled or abnormal logcat can't use MagiskHide.
 - [General] Support Riru extension: MagiskHide no longer need to rely in logcat to work. Download [Riru extension for MagiskHide here](https://github.com/HuskyDG/riru-unshare/releases/latest)
-- [General] DenyList is removed. There is no zygisk denylist feature
+- [General] DenyList is not hide feature and has been removed
 - [App] The package name is `io.github.huskydg.magisk`
 - [App] Support Magisk installation without boot image for emulators
 - [General] Copy required files to `/system` for `addon.d`, like Lygisk
@@ -19,7 +19,7 @@
 - [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 - [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
 - [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
-- [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist) to allow Magisk to be visible for selected processes
+- [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist) to allow Magisk to be only visible for selected processes, remain invisible for all other processes. SuList is imcompatible with some modules and not suitable for Zygsk integration
 
 ### About Canary and Debug?
 
