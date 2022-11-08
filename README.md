@@ -53,7 +53,7 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 #### Source code
 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/tree/794e343c)
+- [Source code](https://github.com/topjohnwu/Magisk/tree/e53bb288)
 
 ## FAQ
 
@@ -102,15 +102,6 @@ Just do like when you update Magisk!
 ### Why not restore Magisk modules online repo?
 
 The official Magisk modules repository is dead and no longer maintained. Due to that, add them back is meanless. However, [Fox2Code](https://github.com/Fox2Code) has developed [Magisk Modules Manager](https://github.com/Fox2Code/FoxMagiskModuleManager)  app which allows you to download Magisk modules online.
-
-### How to disable all Magisk Delta features from Recovery when /data is encrypted
-
-> Currently Magisk Stable doesn't implement this yet
-
-Boot to recovery, mount all partitions, create a file in one of these path:
-- /cache/.disable_all
-- /persist/.disable_all
-- /metadata/.disable_all
 
 ## Donate me
 

@@ -1,6 +1,6 @@
-## Magisk 794e343c-delta by HuskyDG
+## Magisk e53bb288-delta by HuskyDG
 
-- SuList: Don't use `SIGSTOP` and `SIGCONT` on non-target apps. Fix some detection app.
+- SuList: Mount all mirrors for sulist process
 
 ### Diffs to official Magisk
 
