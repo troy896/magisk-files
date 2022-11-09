@@ -85,7 +85,13 @@ Just do like when you update Magisk!
 
 ### How to install Magisk into emulator (such as NoxPlayer, LDPlayer, etc...)?
 
-> Currently, only Magisk Delta support Magisk installation into system partition. Although emulator has ramdisk image, patching ramdisk is not used because ramdisk is stored in seperate partition with very SMALL disk size that is not enough to store Magisk binaries.
+- Before start:
+
+1. Only Magisk Delta support Magisk installation into system partition. 
+2. Although emulator has ramdisk image, patching ramdisk is not used because ramdisk is stored in seperate partition with very SMALL disk size that is not enough to store Magisk binaries.
+3. Bluestacks and MumuPlayer X will not be supported
+
+- Step to step to install Magisk into emulator:
 
 1. Enable Root access in emulator settings
 2. Install and open Magisk Delta
