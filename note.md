@@ -1,6 +1,8 @@
-## Magisk e53bb288-delta by HuskyDG
+## Magisk 48f4ee08-delta by HuskyDG
 
-- SuList: Mount all mirrors for sulist process
+- MagiskHide & SuList: Fix zygote detection
+
+> If you use "Hide Magisk app" and the stub app doesn't detect root access, please try uninstalling the main app
 
 ### Diffs to official Magisk
 
