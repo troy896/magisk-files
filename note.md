@@ -1,6 +1,7 @@
-## Magisk 48f4ee08-delta by HuskyDG
+## Magisk 1ddb52be-delta by HuskyDG
 
-- MagiskHide & SuList: Fix zygote detection
+- Restore unlock_blocks, SuList already handled read write remounted system partition in runtime
+- MagiskHide: Monitor zygote list
 
 > If you use "Hide Magisk app" and the stub app doesn't detect root access, please try uninstalling the main app
 
