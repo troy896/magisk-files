@@ -43,17 +43,13 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 
 ### Canary / Debug
 
-⚠ Only accept bugreports from Magisk Delta variant.
+⚠ Only accept bugreports from Magisk Delta debug variant.
 
 #### Download
 
 - [Download Canary](https://huskydg.github.io/magisk-files/app-release.apk)
-- [Download Debug](https://huskydg.github.io/magisk-files/app-debug.apk)
-
-#### Source code
-
+- [Download Debug](https://huskydg.github.io/magisk-files/app-debug.apk) 
 - [Changelog](https://github.com/HuskyDG/magisk-files/blob/main/note.md)
-- [Source code](https://github.com/topjohnwu/Magisk/tree/1ddb52be)
 
 ## FAQ
 

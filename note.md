@@ -1,28 +1,25 @@
-## Magisk 1ddb52be-delta by HuskyDG
+## Magisk 00dd65c2-delta by HuskyDG
 
-- Restore unlock_blocks, SuList already handled read write remounted system partition in runtime
-- MagiskHide: Monitor zygote list
-
-> If you use "Hide Magisk app" and the stub app doesn't detect root access, please try uninstalling the main app
+This release fixes internal work of MagiskHide/ SuList
+- Fix zygote inotify and rescan apps do not work
 
 ### Diffs to official Magisk
 
 - [General] Restore MagiskHide, uses system logcat to monitor app processes startup: disabled or abnormal logcat can't use MagiskHide.
-- [General] Support Riru extension: MagiskHide no longer need to rely in logcat to work. Download [Riru extension for MagiskHide here](https://github.com/HuskyDG/riru-unshare/releases/latest)
-- [General] DenyList is not hide feature and has been removed
+- [General] Introduce Riru extension: run MagiskHide in Riru. MagiskHide no longer need to rely in logcat to work. Download [Riru extension](https://github.com/HuskyDG/riru-unshare/releases/latest)
 - [App] The package name is `io.github.huskydg.magisk`
 - [App] Support Magisk installation without boot image for emulators
 - [General] Copy required files to `/system` for `addon.d`, like Lygisk
 - [Manager] Show all supported languages in Language settings for Chinese ROM
 - [Modules] Support systemless deleting files or folders for modules
-- [General] Built-in Bootloop Protection
+- [General] Built-in Bootloop Protection to protect system from bootloop by Modules
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
 - [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 - [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
 - [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
-- [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist) to allow Magisk to be only visible for selected processes, remain invisible for all other processes. SuList is imcompatible with some modules and not suitable for Zygsk integration
+- [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist): Sulist apps are granted root, Magisk remain invisible for other processes
 
 ### About Canary and Debug?
 
