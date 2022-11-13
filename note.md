@@ -1,8 +1,10 @@
-## Magisk 2f4cab8d-delta by HuskyDG
+## Magisk 0c725c04-delta by HuskyDG
 
 This release fixes internal work of MagiskHide/ SuList
 - Fix zygote inotify and rescan apps do not work
 - Fix 00dd65c2-delta: Don't let zygote inotify blocks proc_monitor
+
+> If you get any problem, please send bugreport on http://github.com/huskydg/magisk-files or http://t.me/magiskdelta
 
 ### Diffs to official Magisk
 
