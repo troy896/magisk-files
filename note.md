@@ -1,6 +1,6 @@
-## Magisk a81899ca-delta by HuskyDG
+## Magisk 017cca27-delta by HuskyDG
 
-- Fix sulist on some devices
+- Don't set native bridge by `property_service`
 
 ### Diffs to official Magisk
 
