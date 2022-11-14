@@ -1,10 +1,6 @@
-## Magisk 0c725c04-delta by HuskyDG
+## Magisk fabc3343-delta by HuskyDG
 
-This release fixes internal work of MagiskHide/ SuList
-- Fix zygote inotify and rescan apps do not work
-- Fix 00dd65c2-delta: Don't let zygote inotify blocks proc_monitor
-
-> If you get any problem, please send bugreport on http://github.com/huskydg/magisk-files or http://t.me/magiskdelta
+- Zygisk: Change to Native bridge method (Credit @5ec1cff for [Maru](https://github.com/topjohnwu/Magisk/tree/940a3862a4b0868ebe02ae035bcb7fefa6985bc2), [chinese post about it](https://github.com/5ec1cff/my-notes/blob/master/maru.md))
 
 ### Diffs to official Magisk
 
@@ -19,10 +15,11 @@ This release fixes internal work of MagiskHide/ SuList
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
-- [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
+- [App] Wait for service to bind before accessing  [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 - [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
 - [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
 - [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist): Sulist apps are granted root, Magisk remain invisible for other processes
+- [Zygisk]: Change to Native bridge method (Credit @5ec1cff for [Maru](https://github.com/topjohnwu/Magisk/tree/940a3862a4b0868ebe02ae035bcb7fefa6985bc2), [chinese post about it](https://github.com/5ec1cff/my-notes/blob/master/maru.md))
 
 ### About Canary and Debug?
 
