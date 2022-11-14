@@ -116,6 +116,13 @@ The official Magisk modules repository is dead and no longer maintained. Due to 
 - [Internal Documents](./docs/internal-guide.md)
 - [Telegram group](https://t.me/magiskdelta)
 
+## Credits
+
+- Magisk author: [topjohnwu](https://github.com/topjohnwu/magisk)
+- Magisk contributors: [vvb2060](https://github.com/vvb2060), [yujincheng08](https://github.com/yujincheng08), [RikkaW](https://github.com/RikkaW), [canyie](https://github.com/canyie)
+- Maru (zygisk native bridge): [5ec1cff](https://github.com/5ec1cff)
+- Other: [osm0sis](https://github.com/osm0sis), [diareuse](https://github.com/diareuse),...
+
 ## License
 
 Our license obviously is the same as [Magisk's license](https://github.com/topjohnwu/Magisk#License)
