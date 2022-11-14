@@ -1,6 +1,6 @@
-## Magisk fabc3343-delta by HuskyDG
+## Magisk a81899ca-delta by HuskyDG
 
-- Zygisk: Change to Native bridge method (Credit @5ec1cff for [Maru](https://github.com/topjohnwu/Magisk/tree/940a3862a4b0868ebe02ae035bcb7fefa6985bc2), [chinese post about it](https://github.com/5ec1cff/my-notes/blob/master/maru.md))
+- Fix sulist on some devices
 
 ### Diffs to official Magisk
 
