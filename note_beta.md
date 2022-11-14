@@ -1,4 +1,4 @@
-## Magisk v25.2-delta-4 by HuskyDG
+## Magisk v25.2-delta-5 by HuskyDG
 
 ### Diffs to official Magisk
 
@@ -13,10 +13,11 @@
 - [General] Tune F2FS for unencrypted devices
 - [MagiskInit] Support Pre-Init mount, replace system files before `init` starts
 - [MagiskInit] Support loading custom rc script from pre-init directory
-- [App] Wait for service to bind before accessing [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
+- [App] Wait for service to bind before accessing  [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 - [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
 - [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
 - [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist): Sulist apps are granted root, Magisk remain invisible for other processes
+- [Zygisk]: Change to Native bridge method (Credit @5ec1cff for [Maru](https://github.com/topjohnwu/Magisk/tree/940a3862a4b0868ebe02ae035bcb7fefa6985bc2), [chinese post about it](https://github.com/5ec1cff/my-notes/blob/master/maru.md))
 
 ## Magisk (c3b4678f) (25204)
 
