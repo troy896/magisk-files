@@ -3,7 +3,6 @@
 ### Diffs to official Magisk
 
 - [General] Restore MagiskHide, uses system logcat to monitor app processes startup: disabled or abnormal logcat can't use MagiskHide.
-- [General] Introduce Riru extension: run MagiskHide in Riru. MagiskHide no longer need to rely in logcat to work. Download [Riru extension](https://github.com/HuskyDG/riru-unshare/releases/latest)
 - [App] The package name is `io.github.huskydg.magisk`
 - [App] Support Magisk installation without boot image for emulators
 - [General] Copy required files to `/system` for `addon.d`, like Lygisk
