@@ -1,10 +1,10 @@
-## Magisk 017cca27-delta by HuskyDG
+## Magisk 18a0b94a-delta by HuskyDG
 
-- Don't set native bridge by `property_service`
+- Synchronize with the upstream source
 
 ### Diffs to official Magisk
 
-- [General] Restore MagiskHide, uses system logcat to monitor app processes startup: disabled or abnormal logcat can't use MagiskHide.
+- [General] Restore MagiskHide, uses system logcat to monitor app processes startup: abnormal logcat can't use MagiskHide.
 - [App] The package name is `io.github.huskydg.magisk`
 - [App] Support Magisk installation without boot image for emulators
 - [General] Copy required files to `/system` for `addon.d`, like Lygisk
@@ -17,8 +17,8 @@
 - [App] Wait for service to bind before accessing  [topjohnwu/Magisk#6268](https://github.com/topjohnwu/Magisk/pull/6268)
 - [Modules] Support magic mount more partitions (`my_*`, `odm`, `optics`, `prism`)
 - [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
-- [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist): Sulist apps are granted root, Magisk remain invisible for other processes
-- [Zygisk]: Change to Native bridge method (Credit @5ec1cff for [Maru](https://github.com/topjohnwu/Magisk/tree/940a3862a4b0868ebe02ae035bcb7fefa6985bc2), [chinese post about it](https://github.com/5ec1cff/my-notes/blob/master/maru.md))
+- [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist): Magisk is hidden by default, only processes on sulist will be able to obtain root access
+- [Zygisk]: Change to Native bridge method by [5ec1cff](https://github.com/5ec1cff/my-notes/blob/master/maru.md)
 
 ### About Canary and Debug?
 
