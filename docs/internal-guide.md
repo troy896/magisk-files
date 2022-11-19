@@ -3,7 +3,15 @@
 ## Early-init mount
 
 - Some files requires to be mounted earliest in the boot process, Magisk Delta has provided the way to mount files in `pre-init` stage, before `init` is executed
-- The chose location to mount files is `$PRENITDIR/early-mount.d` which is located in same place (`$PREINITDIR`) with `sepolicy.rules` directory. Example your directory to store custom sepolicy rules is `/data/unencrypted/magisk` then the location to mount files is `/data/unencrypted/early-mount.d`
+- The one of following location is used as early-mount.d:
+  - `/data/adb/early-mount.d` (Ext4, Data encryption is disabled)
+  - `/data/unencrypted/early-mount.d` (Ext4, File based Encryption)
+  - `/cache/early-mount.d`
+  - `/metadata/early-mount.d`
+  - `/persist/early-mount.d`
+
+> magiskinit will check each location in the top-down list if it's usable (is it on the ext4 partition or mountable in preinit?)
+
 - You can place your files into the corresponding location under `early-mount.d` directory. For example, you want to replace `/vendor/etc/vintf/manifest.xml` and your mount directory is `/data/unencrypted/early-mount.d`, copy your `manifest.xml` to `/data/unencrypted/early-mount.d/system/vendor/etc/vintf/manifest.xml` , Magisk Delta will mount your files in the next reboot​
 - Other files are not in `$PREINITDIR/early-mount.d/system` will be ignored.
 - For module developers, you can use this path:
