@@ -1,4 +1,4 @@
-## Magisk 18a0b94a-delta by HuskyDG
+## Magisk d37ec636-delta by HuskyDG
 
 - Synchronize with the upstream source
 
