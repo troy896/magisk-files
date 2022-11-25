@@ -73,11 +73,17 @@ Just do like when you update Magisk!
 
 ### How do I run magisk on devices with exploit/temporarily root?
 
-- Run your exploit root tool, you shall have root access after exploitation
-- Push `magisk.apk` and `busybox` binary to `/data/local/tmp` and run [this script](https://raw.githubusercontent.com/topjohnwu/Magisk/1e6dbad3bbd68bf371511d8f6c1756db0ed61f80/scripts/avd_magisk.sh) with root access
+Occasionally, there would be exploits in certain devices that could lead to full fledged root. On modern Android, it is possible to use MagiskSU if you can gain a shell with the following conditions:
 
-***IMPORTANT! Do not update Magisk through Magisk app when bootloader is still locked or you will brick your device with modified boot image***
+- Effective UID should be privileged (root, or euid=0)
+- Have the ability to reload sepolicy (which 99.9% of the time means SELinux permissive)
+- Have full Linux capabilities
 
+If you meet all requirement above (after running exploit root tool):
+
+- Push `magisk.apk` and `busybox` binary to `/data/local/tmp` and run [this script](https://huskydg.github.io/script/temp-magisk.sh) with root access
+
+Note that these changes are not persistent, and you will need to find ways to rerun the whole process every boot.
 
 ### How to install Magisk into emulator (such as NoxPlayer, LDPlayer, etc...)?
 
