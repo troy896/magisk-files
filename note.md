@@ -1,6 +1,6 @@
-## Magisk d37ec636-delta by HuskyDG
+## Magisk 4c384ddd-delta by HuskyDG
 
-- Synchronize with the upstream source
+- Zygisk: Add inode plt hook APIs
 
 ### Diffs to official Magisk
 
@@ -19,6 +19,7 @@
 - [MagiskInit] Use stable random number seed [topjohnwu/Magisk#6340](https://github.com/topjohnwu/Magisk/pull/6340)
 - [MagiskHide] Introduce [SuList feature](https://huskydg.github.io/magisk-files/docs/sulist): Magisk is hidden by default, only processes on sulist will be able to obtain root access
 - [Zygisk]: Change to Native bridge method by [5ec1cff](https://github.com/5ec1cff/my-notes/blob/master/maru.md)
+- [Zygisk]: Add inode plt hook APIs [topjohnwu/Magisk#6398](https://github.com/topjohnwu/Magisk/pull/6398)
 
 ### About Canary and Debug?
 
