@@ -12,14 +12,18 @@ This repo hosts Magisk delta related files
 
 Yet another crazy custom Magisk by HuskyDG, is always synchronized with official Magisk, including back MagiskHide and some custom features.
 
+- [Internal Documents](./docs/internal-guide.md)
+- [MagiskHide Documents](./docs/sulist.md)
+
 ## Features
-- MagiskHide: hide Magisk from integrity system check
+- MagiskHide: Hide Magisk and its modifications from various integrity detection
+- SuList: Magisk is hidden by default, only selected apps on sulist can explore Magisk root privilege.
 - Bootloop Protection: Protect your system from bootloop caused by Magisk modules
 - Core-only mode: No modules will load in this mode
-- Pre-init mount: Mount files in magiskinit stage, before Android's init is executed
-- Custom init.rc: Inject rc script without patching boot image with overlay.d
+- Pre-init mount: Mount files before `init` stage
+- `init.rc` inject: Dynamic inject rc script without patching boot image with `overlay.d`
 - System install: Install Magisk into `/system` instead of boot image (for emulator)
-- Addon.d fixes when `/data` is not decryptable (Lygisk)
+- Addon.d fixes when `/data` is not decryptable
 - Tuning F2FS for device with unencrypted data
 
 ## Download
@@ -119,7 +123,6 @@ The official Magisk modules repository is dead and no longer maintained. Due to 
 
 ## Other links
 
-- [Internal Documents](./docs/internal-guide.md)
 - [Telegram group](https://t.me/magiskdelta)
 
 ## Credits
