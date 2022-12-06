@@ -1,6 +1,6 @@
-## Magisk 4c384ddd-delta by HuskyDG
+## Magisk c02c86b0-delta by HuskyDG
 
-- Zygisk: Add inode plt hook APIs
+- Zygisk: Fix Zygisk cannot be enabled on some emulators
 
 ### Diffs to official Magisk
 
