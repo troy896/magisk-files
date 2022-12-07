@@ -15,17 +15,6 @@ Yet another crazy custom Magisk by HuskyDG, is always synchronized with official
 - [Internal Documents](./docs/internal-guide.md)
 - [MagiskHide Documents](./docs/sulist.md)
 
-## Features
-- MagiskHide: Hide Magisk and its modifications from various integrity detection
-- SuList: Magisk is hidden by default, only selected apps on sulist can explore Magisk root privilege.
-- Bootloop Protection: Protect your system from bootloop caused by Magisk modules
-- Core-only mode: No modules will load in this mode
-- Pre-init mount: Mount files before `init` stage
-- `init.rc` inject: Dynamic inject rc script without patching boot image with `overlay.d`
-- System install: Install Magisk into `/system` instead of boot image (for emulator)
-- Addon.d fixes when `/data` is not decryptable
-- Tuning F2FS for device with unencrypted data
-
 ## Download
 
 > If you are fine with official Magisk setup, it is recommended to stay. If you choose to use Magisk Delta, make sure you read all FAQs and changelog before using Magisk Delta.
