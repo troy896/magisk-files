@@ -1,6 +1,6 @@
-## Magisk c02c86b0-delta by HuskyDG
+## Magisk 9a69ab92-delta by HuskyDG
 
-- Zygisk: Fix Zygisk cannot be enabled on some emulators
+- Fix system install
 
 ### Diffs to official Magisk
 
